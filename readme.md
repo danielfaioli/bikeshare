@@ -11,9 +11,9 @@ In order to deal with this the code has Control Flow statements in the user_stat
 
 Docs
 
-Functions:
+#Functions:
 
-def get_filters () :
+##def get_filters () :
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
@@ -22,7 +22,7 @@ def get_filters () :
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
 
 
-def load_data(city, month, day):
+##def load_data(city, month, day):
     Loads data for the specified city and filters by month and day if applicable.
 
     Args:
@@ -32,11 +32,11 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
 
-def station_stats():
-def trip_duration_stats:
-def user_stats():
+##def station_stats():
+##def trip_duration_stats:
+##def user_stats():
 
 The three functions above calculate the statistics for station, trip durations and users data. The results are displayed as program output. 
 
-THX FOR COLABORATING, HOPEFULY THIS WILL HELP SOMEONE LEARN A LITTLE BIT OF PYTHON AS IT HELPED ME.
-PEACE!!
+**THX FOR COLABORATING, HOPEFULY THIS WILL HELP SOMEONE LEARN A LITTLE BIT OF PYTHON AS IT HELPED ME.
+PEACE!!**
