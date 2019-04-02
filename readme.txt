@@ -36,6 +36,6 @@ def station_stats():
 def trip_duration_stats:
 def user_stats():
 
-The three functions above calculates the statistics for station, trip durations and users data. The results are displayed as program output. 
+The three functions above calculate the statistics for station, trip durations and users data. The results are displayed as program output. 
 
 THX!!
