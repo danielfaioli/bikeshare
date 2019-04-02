@@ -113,7 +113,7 @@ def station_stats(df):
     df['trip'] = df['Start Station'] + ' - ' + df['End Station']
     trip_mode = df.trip.mode()
 
-    #Saída
+    #output
     print('Most common:\nStart Station:{}\nEnd Station:{}\nTrip:{}'.format(DPstation_mode,ARVstation_mode,trip_mode))
 
 
