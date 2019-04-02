@@ -32,10 +32,11 @@ def get_filters():
     month = str(input('Enter the desired month: ').lower())
     # Day input
     day = str(input('Enter the desired day of the week: '))
-
+    # Dataset size
+    dset_size = int(input('Type the desired dataset sample size to look at: '))
 
     print('-'*40)
-    return city, month, day
+    return city, month, day, dset_size
 
 
 def load_data(city, month, day):
@@ -175,10 +176,10 @@ def user_stats(df,city):
 
 def main():
     while True:
-        city, month, day = get_filters()
+        city, month, day, dset_size = get_filters()
         df = load_data(city, month, day)
 
-        pd.set_option('display.max_rows', 5)
+        pd.set_option('display.max_rows', dset_size)
         pd.set_option('display.max_columns', 13)
         print(df)
 
