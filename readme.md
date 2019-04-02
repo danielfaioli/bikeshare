@@ -11,9 +11,9 @@ In order to deal with this the code has Control Flow statements in the user_stat
 
 Docs
 
-#Functions:
+# Functions:
 
-##def get_filters () :
+## def get_filters () :
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
@@ -32,9 +32,9 @@ Docs
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
 
-##def station_stats():
-##def trip_duration_stats:
-##def user_stats():
+## def station_stats():
+## def trip_duration_stats:
+## def user_stats():
 
 The three functions above calculate the statistics for station, trip durations and users data. The results are displayed as program output. 
 
